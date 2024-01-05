@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 700px;
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: white;
+    border-radius: 1em;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: .6rem;
+}
+
+nav {
+    padding: 1em;
+    font-family: 'Calistoga', serif;
+}
+
+input, textarea, button{
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    padding: .5em;
+    border-radius: .7em;
+}
+
+input, textarea {
+    border: 1px solid #666666;
+    font-size: .9rem;
+    color: #666666;
+}
+
+textarea {
+    height: 150px;
+}
+
+label {
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+button {
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 200px;
+    cursor: pointer;
+}
+
+.post-body {
+    color: #666666;
+    font-size: .9rem;
+}
+
+.post-title {
+    font-family: 'Calistoga', serif;
+    font-weight:lighter;
+}

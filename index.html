@@ -1,0 +1,26 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Calistoga&display=swap" rel="stylesheet">
+    </head>
+    <header>
+        <nav>
+            <h1>BlogSpace</h1>
+        </nav>
+    </header>
+    
+    <form class="container" id="new-post-form">
+        <label for="post-title">Title:</label>
+        <input type="text" label="post-title" id="post-title" name="title" />
+        <label for="post-body">Body:</label>
+        <textarea label="post-body" id="post-body" name="body"></textarea>
+        <button>Post</button>
+    </form>
+    
+    <body>
+        <div id="blog-list" class="blog container"></div>
+        <script src="index.js"></script>
+    </body>
+</html>
